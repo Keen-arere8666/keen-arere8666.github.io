@@ -1,0 +1,62 @@
+# ==========================================
+# Security & Secret Keys (SSH, API, SSL)
+# ==========================================
+*.key
+*.pem
+*.pub
+*.ppk
+*.cer
+*.crt
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+id_dsa*
+id_ecdsa*
+*.keystore
+
+# ==========================================
+# Environment Variables & Credentials
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.json
+auth.json
+*.secret
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
