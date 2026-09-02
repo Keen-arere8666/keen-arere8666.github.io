@@ -3,74 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Auto Marinikas | Μεταχειρισμένα Αυτοκίνητα & Μοτοσυκλέτες Θεσσαλονίκη</title>
-  <meta name="description" content="Η Automarinikas προσφέρει ελεγμένα μεταχειρισμένα αυτοκίνητα και μοτοσυκλέτες στη Θεσσαλονίκη με 35+ χρόνια εμπειρίας, γραπτή εγγύηση, πιστοποιημένα χιλιόμετρα και ευέλικτη χρηματοδότηση.">
-  <meta name="keywords" content="μεταχειρισμενα αυτοκινητα θεσσαλονικη, automarinikas, αγορα αυτοκινητου, ανταλλαγες, χρηματοδοτηση αυτοκινητου, πυλαια">
+  <title>Automarinikas – Automarinikas Μεταχειρισμένα Αυτοκίνητα Θεσσαλονίκη</title>
+  <meta name="description" content="Βρείτε το νέο σας μεταχειρισμένο αυτοκίνητο και αποκτήστε το πιο εύκολα από ποτέ με την αξιοπιστία Automarinikas.">
+  <meta name="robots" content="max-image-preview:large">
 
-  <!-- Open Graph / Meta -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Auto Marinikas | Μεταχειρισμένα Αυτοκίνητα & Μοτοσυκλέτες Θεσσαλονίκη">
-  <meta property="og:description" content="Ελεγμένα μεταχειρισμένα οχήματα με γραπτή εγγύηση, πιστοποιημένα χιλιόμετρα και ευκολίες πληρωμής.">
-  <meta property="og:url" content="https://automarinikas.github.io/">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/automarinikas-icon.jpg" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/images/automarinikas-icon.jpg">
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts (same as original) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400,700,700i&subset=latin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,600,300,800,700,200,900&subset=latin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,800,900&subset=latin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monda:400,700&subset=latin&display=swap" rel="stylesheet">
 
-  <!-- Stylesheets -->
+  <!-- Font Awesome 5.8.1 (same as original) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <!-- ==========================================================================
-       Header & Navigation
+       Top Bar (Ωράριο / Τηλέφωνα / Διεύθυνση)
        ========================================================================== -->
-  <header class="site-header">
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-item">
+        <i class="far fa-clock"></i>
+        <span>Ωράριο λειτουργίας : 09:00 - 20:00</span>
+      </div>
+
+      <div class="top-bar-item top-bar-phones">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:6932794575">6932794575</a>
+        <span>-</span>
+        <a href="tel:6943626656">6943626656</a>
+        <span>-</span>
+        <a href="tel:2310476590">2310 476 590</a>
+      </div>
+
+      <div class="top-bar-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <a href="https://goo.gl/maps/4pafvfrZ3C5kfk8k8" target="_blank" rel="noopener">
+          Διεύθυνση Απόλλωνος, Πυλαία-Χορτιάτης 555 35
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Site Header & Navigation
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
     <div class="container nav-wrapper">
-      <a href="#" class="brand-logo" id="logo-brand">
-        <div class="logo-symbol">
-          <!-- Clean Car SVG Icon -->
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path>
-            <circle cx="7" cy="17" r="2"></circle>
-            <path d="M9 17h6"></path>
-            <circle cx="17" cy="17" r="2"></circle>
-          </svg>
-        </div>
-        <div class="brand-text">
-          <span class="brand-title">AUTO<span>MARINIKAS</span></span>
-          <span class="brand-subtitle">Θεσσαλονικη &bull; Est. 1989</span>
-        </div>
+      <a href="https://automarinikas.gr" class="brand-logo">
+        <img src="assets/images/automarinikas-logo.jpg" alt="automarinikas-logo">
       </a>
 
       <nav>
         <ul class="nav-menu" id="nav-menu">
-          <li><a href="#showroom" class="nav-link">Στόλος Οχημάτων</a></li>
-          <li><a href="#financing" class="nav-link">Χρηματοδότηση</a></li>
-          <li><a href="#trade-in" class="nav-link">Εκτίμηση / Ανταλλαγή</a></li>
-          <li><a href="#why-us" class="nav-link">Γιατί Εμάς</a></li>
-          <li><a href="#testimonials" class="nav-link">Κριτικές</a></li>
-          <li><a href="#contact" class="nav-link">Επικοινωνία</a></li>
+          <li>
+            <a href="https://automarinikas.gr/product-category/%ce%bc%ce%b5%cf%84%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b1%cf%85%cf%84%ce%bf%ce%ba%ce%af%ce%bd%ce%b7%cf%84%ce%b1/">
+              Μεταχειρισμένα Αυτοκίνητα
+            </a>
+          </li>
+          <li>
+            <a href="https://automarinikas.gr/product-category/%ce%bc%ce%b5%cf%84%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%b5%cf%82-%ce%bc%ce%bf%cf%84%ce%bf%cf%83%cf%85%ce%ba%ce%bb%ce%ad%cf%84%ce%b5%cf%82/">
+              Μεταχειρισμένες Μοτοσυκλέτες
+            </a>
+          </li>
+          <li>
+            <a href="https://automarinikas.gr/%ce%b7-%ce%b5%cf%84%ce%b1%ce%b9%cf%81%ce%af%ce%b1/">
+              Η Εταιρεία
+            </a>
+          </li>
         </ul>
       </nav>
 
-      <div class="header-actions">
-        <a href="tel:6932794575" class="btn btn-call-quick btn-sm" id="btn-header-call">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-          </svg>
-          <span>693 279 4575</span>
-        </a>
-
-        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button>
-      </div>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Μενού πλοήγησης">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
   </header>
 
@@ -78,295 +94,181 @@
        Hero Section
        ========================================================================== -->
   <section class="hero-section" id="hero">
-    <div class="hero-overlay"></div>
-    <div class="container">
+    <div class="container" style="display: flex; align-items: center; position: relative;">
       <div class="hero-content">
-        <div class="hero-badge-pill">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
-          35+ Χρόνια Εγγυημένης Ποιότητας & Εμπιστοσύνης
-        </div>
-
-        <h1 class="hero-title">
-          Βρείτε το Επόμενο σας <br>
-          <span class="text-gradient">Αυτοκίνητο με Εγγύηση</span>
-        </h1>
-
+        <h1>Μεταχειρισμένα Aυτοκίνητα</h1>
         <p class="hero-description">
-          Επιλεγμένα μεταχειρισμένα αυτοκίνητα και μοτοσυκλέτες στη Θεσσαλονίκη. 
-          Πλήρης τεχνικός έλεγχος 100+ σημείων, πιστοποιημένα χιλιόμετρα, βιολογικός καθαρισμός και άμεση χρηματοδότηση από 0% προκαταβολή.
+          Βρείτε το νέο σας μεταχειρισμένο αυτοκίνητο και αποκτήστε το πιο εύκολα από ποτέ με την αξιοπιστία
+          <strong style="color: var(--accent-cyan);">Automarinikas.</strong>
         </p>
-
-        <div class="hero-actions">
-          <a href="#showroom" class="btn btn-primary" id="btn-hero-showroom">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            Προβολή Διαθέσιμων Οχημάτων
-          </a>
-          <a href="#trade-in" class="btn btn-outline" id="btn-hero-tradein">
-            Εκτίμηση του Δικού σας Οχήματος
-          </a>
-        </div>
-
-        <div class="hero-stats">
-          <div class="stat-item">
-            <h3>35<span>+</span></h3>
-            <p>Χρόνια Εμπειρίας</p>
-          </div>
-          <div class="stat-item">
-            <h3>100<span>%</span></h3>
-            <p>Ελεγμένα Οχήματα</p>
-          </div>
-          <div class="stat-item">
-            <h3>2.500<span>+</span></h3>
-            <p>Ευχαριστημένοι Πελάτες</p>
-          </div>
-        </div>
-
-        <!-- Quick Search Bar -->
-        <div class="hero-search-box">
-          <div class="quick-search-grid">
-            <div class="form-group">
-              <label for="hero-make">Μάρκα</label>
-              <select class="form-select" id="hero-make">
-                <option value="all">Όλες οι Μάρκες</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="hero-body">Κατηγορία</label>
-              <select class="form-select" id="hero-body">
-                <option value="all">Όλες οι Κατηγορίες</option>
-                <option value="SUV">SUV / Crossover</option>
-                <option value="Hatchback">Hatchback</option>
-                <option value="Sedan">Sedan</option>
-                <option value="Motorcycle">Μοτοσυκλέτες</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="hero-fuel">Καύσιμο</label>
-              <select class="form-select" id="hero-fuel">
-                <option value="all">Όλα τα Καύσιμα</option>
-                <option value="Petrol">Βενζίνη</option>
-                <option value="Diesel">Πετρέλαιο</option>
-                <option value="Hybrid">Υβριδικό</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="hero-price">Μέγιστη Τιμή</label>
-              <select class="form-select" id="hero-price">
-                <option value="all">Χωρίς Όριο</option>
-                <option value="15000">έως €15.000</option>
-                <option value="20000">έως €20.000</option>
-                <option value="25000">έως €25.000</option>
-                <option value="35000">έως €35.000</option>
-              </select>
-            </div>
-
-            <button class="btn btn-primary" id="hero-search-btn">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
-              Αναζήτηση
-            </button>
-          </div>
-        </div>
+        <a href="tel:6932794575" class="btn btn-primary">
+          <i class="fas fa-phone-alt"></i>
+          Καλέστε τώρα: <span>6932794575</span>
+        </a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/car-wash-hero-img.jpg" alt="Μεταχειρισμένα Αυτοκίνητα Θεσσαλονίκη">
       </div>
     </div>
   </section>
 
   <!-- ==========================================================================
-       Showroom & Vehicle Inventory
+       Product Grid
        ========================================================================== -->
-  <section class="section" id="showroom">
+  <section class="products-section" id="products">
     <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Διαθεσιμα Οχηματα</span>
-        <h2 class="section-title">Εξερευνήστε τον Στόλο μας</h2>
-        <p class="section-subtitle">Όλα τα αυτοκίνητα παραδίδονται με πρόσφατο service, βιολογικό καθαρισμό και εγγύηση καλής λειτουργίας.</p>
+      <div class="products-header">
+        <p class="products-count">Προβάλλονται όλα - 7 αποτελέσματα</p>
       </div>
 
-      <!-- Controls & Filter Toolbar -->
-      <div class="showroom-controls">
-        <div class="filter-categories">
-          <button class="filter-pill active" data-category="all">Όλα τα Οχήματα</button>
-          <button class="filter-pill" data-category="SUV">SUV & Crossover</button>
-          <button class="filter-pill" data-category="Hatchback">Hatchback</button>
-          <button class="filter-pill" data-category="Sedan">Sedan</button>
-          <button class="filter-pill" data-category="Motorcycle">Μοτοσυκλέτες</button>
+      <div class="products-grid">
+
+        <!-- Product 1: Fiat Punto Evo -->
+        <div class="product-card">
+          <a href="https://automarinikas.gr/product/fiat-punto-evo-evo-euro-5-start-stop-2012/">
+            <div class="product-image">
+              <img src="assets/images/fiat-punto-evo-2012.jpg" alt="Fiat Punto Evo EVO EURO-5 START-STOP (2012)">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Fiat Punto Evo EVO EURO-5 START-STOP (2012)</h2>
+              <div class="product-price">
+                <span class="amount">5.600,00 €</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/fiat-punto-evo-evo-euro-5-start-stop-2012/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
         </div>
 
-        <div class="filter-inputs-row">
-          <div class="search-input-wrapper">
-            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input type="text" class="form-input" id="filter-search" placeholder="Αναζήτηση μάρκας, μοντέλου...">
-          </div>
-
-          <select class="form-select" id="filter-make">
-            <option value="all">Όλες οι Μάρκες</option>
-          </select>
-
-          <select class="form-select" id="filter-fuel">
-            <option value="all">Όλα τα Καύσιμα</option>
-            <option value="Petrol">Βενζίνη</option>
-            <option value="Diesel">Πετρέλαιο</option>
-            <option value="Hybrid">Υβριδικό</option>
-          </select>
-
-          <select class="form-select" id="filter-transmission">
-            <option value="all">Κιβώτιο Ταχυτήτων</option>
-            <option value="Automatic">Αυτόματο</option>
-            <option value="Manual">Χειροκίνητο</option>
-          </select>
-
-          <select class="form-select" id="filter-price">
-            <option value="100000">Όλες οι Τιμές</option>
-            <option value="15000">έως €15.000</option>
-            <option value="20000">έως €20.000</option>
-            <option value="25000">έως €25.000</option>
-            <option value="35000">έως €35.000</option>
-          </select>
-
-          <button class="btn-reset-filters" id="btn-reset-filters" title="Επαναφορά φίλτρων">
-            Καθαρισμός
-          </button>
+        <!-- Product 2: Peugeot 107 -->
+        <div class="product-card">
+          <a href="https://automarinikas.gr/product/peugeot-107-2007/">
+            <div class="product-image">
+              <img src="assets/images/peugeot-107-2007.jpg" alt="Peugeot 107 (2007)">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Peugeot 107 (2007)</h2>
+              <div class="product-price">
+                <span class="amount">6.500,00 €</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/peugeot-107-2007/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
         </div>
-      </div>
 
-      <!-- Inventory Summary Bar -->
-      <div class="inventory-summary">
-        <div class="inventory-count">
-          Βρέθηκαν <strong id="inventory-count">0</strong> οχήματα
+        <!-- Product 3: Kymco X-Town 300i (SALE) -->
+        <div class="product-card">
+          <span class="sale-badge">Προσφορά!</span>
+          <a href="https://automarinikas.gr/product/kymco-x-town-300i-2016/">
+            <div class="product-image">
+              <img src="assets/images/kymco-xtown-300i-2016.jpg" alt="Kymco X-Town 300i (2016)">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Kymco X-Town 300i (2016)</h2>
+              <div class="product-price">
+                <del><span class="amount">3.100,00 €</span></del>
+                <ins><span class="amount">2.700,00 €</span></ins>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/kymco-x-town-300i-2016/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
         </div>
-        <div class="inventory-sort">
-          <select class="form-select form-select-sm" id="sort-by" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;">
-            <option value="featured">Προτεινόμενα</option>
-            <option value="price-asc">Τιμή: Χαμηλή σε Υψηλή</option>
-            <option value="price-desc">Τιμή: Υψηλή σε Χαμηλή</option>
-            <option value="year-desc">Έτος: Νεότερα</option>
-            <option value="km-asc">Χιλιόμετρα: Λιγότερα</option>
-          </select>
-        </div>
-      </div>
 
-      <!-- Vehicle Cards Grid -->
-      <div class="vehicles-grid" id="vehicles-grid">
-        <!-- Dynamically populated by app.js -->
+        <!-- Product 4: Renault Megane (SALE) -->
+        <div class="product-card">
+          <span class="sale-badge">Προσφορά!</span>
+          <a href="https://automarinikas.gr/product/renault-megane-2006/">
+            <div class="product-image">
+              <img src="assets/images/renault-megane-2006.jpg" alt="Renault Megane (2006) 1.6">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Renault Megane (2006) 1.6</h2>
+              <div class="product-price">
+                <del><span class="amount">4.000,00 €</span></del>
+                <ins><span class="amount">3.750,00 €</span></ins>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/renault-megane-2006/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
+        </div>
+
+        <!-- Product 5: Suzuki Jimny -->
+        <div class="product-card">
+          <a href="https://automarinikas.gr/product/suzuki-jimny-4x4-2001-1-3/">
+            <div class="product-image">
+              <img src="assets/images/suzuki-jimny-2001.jpg" alt="Suzuki Jimny 4×4 (2001) 1.3">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Suzuki Jimny 4×4 (2001) 1.3</h2>
+              <div class="product-price">
+                <span class="amount">5.500,00 €</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/suzuki-jimny-4x4-2001-1-3/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
+        </div>
+
+        <!-- Product 6: Dacia Sandero (SALE) -->
+        <div class="product-card">
+          <span class="sale-badge">Προσφορά!</span>
+          <a href="https://automarinikas.gr/product/dacia-sandero-2018-1-0/">
+            <div class="product-image">
+              <img src="assets/images/dacia-sandero-2018.jpg" alt="Dacia Sandero (2018) 1.0">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Dacia Sandero (2018) 1.0</h2>
+              <div class="product-price">
+                <del><span class="amount">8.700,00 €</span></del>
+                <ins><span class="amount">7.700,00 €</span></ins>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/dacia-sandero-2018-1-0/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
+        </div>
+
+        <!-- Product 7: Hyundai Accent (SALE) -->
+        <div class="product-card">
+          <span class="sale-badge">Προσφορά!</span>
+          <a href="https://automarinikas.gr/product/hyundai-accent-2008-1-4/">
+            <div class="product-image">
+              <img src="assets/images/hyundai-accent-2008.jpg" alt="Hyundai Accent (2008) 1.4">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Hyundai Accent (2008) 1.4</h2>
+              <div class="product-price">
+                <del><span class="amount">6.500,00 €</span></del>
+                <ins><span class="amount">5.300,00 €</span></ins>
+              </div>
+            </div>
+          </a>
+          <a href="https://automarinikas.gr/product/hyundai-accent-2008-1-4/" class="btn-add-to-cart">Προσθήκη στο καλάθι</a>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- ==========================================================================
-       Vehicle Details Modal
+       CTA: Αγορά Μεταχειρισμένα Αυτοκίνητα
        ========================================================================== -->
-  <div class="modal-overlay" id="vehicle-modal" role="dialog" aria-modal="true">
-    <div class="modal-container">
-      <button class="modal-close-btn" id="modal-close-btn" aria-label="Κλείσιμο παραθύρου">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18"></line>
-          <line x1="6" y1="6" x2="18" y2="18"></line>
-        </svg>
-      </button>
-      <div id="modal-dynamic-content">
-        <!-- Injected via app.js -->
+  <section class="cta-section" id="cta-buy">
+    <div class="cta-columns">
+      <div class="cta-image-col">
+        <img src="assets/images/car-wash-cta-2.jpg" alt="Αγορά Μεταχειρισμένα Αυτοκίνητα">
       </div>
-    </div>
-  </div>
-
-  <!-- ==========================================================================
-       Financing Calculator Section
-       ========================================================================== -->
-  <section class="section" id="financing" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Ευκολιες Πληρωμης</span>
-        <h2 class="section-title">Υπολογιστής Χρηματοδότησης</h2>
-        <p class="section-subtitle">Υπολογίστε εύκολα την ενδεικτική μηνιαία δόση με ευέλικτα προγράμματα δανεισμού και χαμηλό επιτόκιο.</p>
-      </div>
-
-      <div class="calculator-card">
-        <div class="calc-form">
-          <!-- Price Input & Range -->
-          <div class="range-wrap">
-            <div class="range-header">
-              <label for="calc-price">Τιμή Οχήματος (€)</label>
-              <span class="range-value-badge">
-                <input type="number" id="calc-price" value="22000" min="2000" max="100000" step="500" style="background:transparent; color:inherit; width:80px; text-align:right; font-weight:bold;"> €
-              </span>
-            </div>
-            <input type="range" class="calc-range" id="calc-price-range" min="2000" max="60000" step="500" value="22000">
-          </div>
-
-          <!-- Deposit Input & Range -->
-          <div class="range-wrap">
-            <div class="range-header">
-              <label for="calc-deposit">Προκαταβολή (€)</label>
-              <span class="range-value-badge">
-                <input type="number" id="calc-deposit" value="4400" min="0" max="100000" step="500" style="background:transparent; color:inherit; width:80px; text-align:right; font-weight:bold;"> €
-              </span>
-            </div>
-            <input type="range" class="calc-range" id="calc-deposit-range" min="0" max="30000" step="500" value="4400">
-            <div class="preset-buttons">
-              <button class="calc-preset-btn" data-percent="0">0%</button>
-              <button class="calc-preset-btn active" data-percent="20">20%</button>
-              <button class="calc-preset-btn" data-percent="30">30%</button>
-              <button class="calc-preset-btn" data-percent="50">50%</button>
-            </div>
-          </div>
-
-          <!-- Duration Select -->
-          <div class="form-group">
-            <label for="calc-duration">Διάρκεια Αποπληρωμής</label>
-            <select class="form-select" id="calc-duration">
-              <option value="12">12 Μήνες (1 Έτος)</option>
-              <option value="24">24 Μήνες (2 Έτη)</option>
-              <option value="36">36 Μήνες (3 Έτη)</option>
-              <option value="48" selected>48 Μήνες (4 Έτη)</option>
-              <option value="60">60 Μήνες (5 Έτη)</option>
-              <option value="72">72 Μήνες (6 Έτη)</option>
-              <option value="84">84 Μήνες (7 Έτη)</option>
-            </select>
-          </div>
-
-          <div class="form-group" style="display:none;">
-            <input type="number" id="calc-interest" value="7.9" step="0.1">
-          </div>
-        </div>
-
-        <!-- Calculator Output Card -->
-        <div class="calc-results-card">
-          <div class="result-main">
-            <div class="result-label">Εκτιμώμενη Μηνιαία Δόση</div>
-            <div class="result-amount" id="calc-monthly-result">€395</div>
-            <div class="result-period">σταθερό επιτόκιο τραπέζης</div>
-          </div>
-
-          <div class="result-breakdown">
-            <div class="breakdown-row">
-              <span>Ποσό Χρηματοδότησης:</span>
-              <strong id="calc-loan-amount">€17.600</strong>
-            </div>
-            <div class="breakdown-row">
-              <span>Συνολικοί Τόκοι:</span>
-              <strong id="calc-total-interest">€1.360</strong>
-            </div>
-            <div class="breakdown-row">
-              <span>Συνολικό Κόστος Αγοράς:</span>
-              <strong id="calc-total-cost">€23.360</strong>
-            </div>
-          </div>
-
-          <a href="https://wa.me/306932794575?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82,%20%CE%B5%CE%BD%CE%B4%CE%B9%CE%B1%CF%86%CE%AD%CF%81%CE%BF%CE%BC%CE%B1%CE%B9%20%CE%B3%CE%B9%CE%B1%20%CF%80%CF%81%CF%8C%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1%20%CF%87%CF%81%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CE%B4%CF%8C%CF%84%CE%B7%CF%83%CE%B7%CF%82%20%CE%B1%CF%85%CF%84%CE%BF%CE%BA%CE%B9%CE%BD%CE%AE%CF%84%CE%BF%CF%85." target="_blank" class="btn btn-primary" id="btn-calc-inquire">
-            Αίτηση Χρηματοδότησης
+      <div class="cta-text-col">
+        <h2>Αγορά Μεταχειρισμένα Aυτοκίνητα</h2>
+        <p>
+          Ένα μεταχειρισμένο αυτοκίνητο μπορεί να είναι ένας πολύ καλός τρόπος για να κερδίσετε πολλά χρήματα στο επόμενο αυτοκίνητό σας.
+        </p>
+        <p>
+          Το μέσο αυτοκίνητο χάνει το 35 τοις εκατό της αξίας του τα τρία πρώτα χρόνια της ζωής του.
+        </p>
+        <div class="cta-buttons">
+          <a href="https://automarinikas.gr/product-category/%ce%bc%ce%b5%cf%84%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b1%cf%85%cf%84%ce%bf%ce%ba%ce%af%ce%bd%ce%b7%cf%84%ce%b1/" class="btn btn-primary">
+            Δείτε τα Αυτοκίνητά μας
+          </a>
+          <a href="https://automarinikas.gr/product-category/%ce%bc%ce%b5%cf%84%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%b5%cf%82-%ce%bc%ce%bf%cf%84%ce%bf%cf%83%cf%85%ce%ba%ce%bb%ce%ad%cf%84%ce%b5%cf%82/" class="btn btn-outline-primary">
+            Δείτε τα Μοτοσυκλέτες μας
           </a>
         </div>
       </div>
@@ -374,246 +276,67 @@
   </section>
 
   <!-- ==========================================================================
-       Appraisal & Trade-in Section
+       35 Years Counter Section
        ========================================================================== -->
-  <section class="section" id="trade-in">
+  <section class="counter-section" id="counter">
     <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Αγορα &bull; Ανταλλαγη</span>
-        <h2 class="section-title">Πουλήστε ή Ανταλλάξτε το Αυτοκίνητό σας</h2>
-        <p class="section-subtitle">Συμπληρώστε τα στοιχεία του οχήματός σας και λάβετε άμεση και δίκαιη εκτίμηση της αξίας του.</p>
-      </div>
-
-      <div class="trade-in-card">
-        <form id="appraisal-form">
-          <div class="trade-in-grid">
-            <div class="form-group">
-              <label for="appraise-make">Μάρκα Οχήματος *</label>
-              <input type="text" class="form-input" id="appraise-make" placeholder="π.χ. Volkswagen, Toyota, BMW" required>
-            </div>
-
-            <div class="form-group">
-              <label for="appraise-model">Μοντέλο & Έκδοση *</label>
-              <input type="text" class="form-input" id="appraise-model" placeholder="π.χ. Golf 1.4 TSI R-Line" required>
-            </div>
-
-            <div class="form-group">
-              <label for="appraise-year">Έτος Πρώτης Κυκλοφορίας *</label>
-              <input type="number" class="form-input" id="appraise-year" placeholder="π.χ. 2018" min="1990" max="2026" required>
-            </div>
-
-            <div class="form-group">
-              <label for="appraise-km">Χιλιόμετρα *</label>
-              <input type="number" class="form-input" id="appraise-km" placeholder="π.χ. 85000" required>
-            </div>
-
-            <div class="form-group">
-              <label for="appraise-phone">Τηλέφωνο Επικοινωνίας *</label>
-              <input type="tel" class="form-input" id="appraise-phone" placeholder="π.χ. 690 000 0000" required>
-            </div>
-
-            <div class="form-group" style="display:flex; align-items:flex-end;">
-              <button type="submit" class="btn btn-primary" style="width:100%; height:50px;" id="btn-submit-tradein">
-                Υποβολή για Εκτίμηση
-              </button>
-            </div>
+      <div class="counter-columns">
+        <div class="counter-visual">
+          <div class="counter-circle">
+            <span class="counter-number"><strong>35</strong></span>
+            <span class="counter-label"><strong>Χρόνια</strong></span>
           </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       Why Choose Us Section
-       ========================================================================== -->
-  <section class="section" id="why-us" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Τα Πλεονεκτηματα Μας</span>
-        <h2 class="section-title">Γιατί να Επιλέξετε την Auto Marinikas</h2>
-        <p class="section-subtitle">Αγοράστε με απόλυτη σιγουριά και διαφάνεια από έναν συνεργάτη με πάνω από τρεις δεκαετίες στον χώρο.</p>
-      </div>
-
-      <div class="features-grid">
-        <div class="feature-box">
-          <div class="feature-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h4>Γραπτή Εγγύηση</h4>
-          <p>Όλα τα οχήματά μας συνοδεύονται από γραπτή εγγύηση καλής λειτουργίας και κάλυψη για πλήρη ηρεμία.</p>
         </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-          </div>
-          <h4>Πιστοποιημένα Χιλιόμετρα</h4>
-          <p>Εγγυόμαστε τα γνήσια χιλιόμετρα κάθε οχήματος με επίσημο ιστορικό συντήρησης και βιβλίο service.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="12" y1="8" x2="12" y2="12"></line>
-              <line x1="12" y1="16" x2="12.01" y2="16"></line>
-            </svg>
-          </div>
-          <h4>Έλεγχος 100+ Σημείων</h4>
-          <p>Εξονυχιστικός τεχνικός και μηχανικός έλεγχος πριν από κάθε παράδοση, χωρίς κρυφά προβλήματα.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon-wrap">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-              <line x1="12" y1="11" x2="12" y2="17"></line>
-              <line x1="9" y1="14" x2="15" y2="14"></line>
-            </svg>
-          </div>
-          <h4>Ευέλικτη Χρηματοδότηση</h4>
-          <p>Συνεργασία με όλες τις ελληνικές τράπεζες, από 0% προκαταβολή και έως 84 μήνες εξόφληση.</p>
+        <div class="counter-text-col">
+          <h3>35 Χρόνια στην πώληση Αυτοκινήτου</h3>
+          <ul class="counter-list">
+            <li>Είμαστε αφοσιωμένοι στο να διασφαλίσουμε ότι κάθε πελάτης μας θα αποκτήσει το όχημα που θέλει σε τιμή που ταιριάζει στον προϋπολογισμό του.</li>
+            <li>Η Automarinikas προσφέρει ανταγωνιστικές τιμές και μεγάλη ποικιλία σε μεταχειρισμένα οχήματα</li>
+            <li>Μας εμπιστεύονται σχεδόν 2000 αγοραστές αυτοκινήτων που μας επισκέπτονται κάθε χρόνο.</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ==========================================================================
-       Customer Testimonials
+       Contact Section: Επικοινωνήστε μαζί μας
        ========================================================================== -->
-  <section class="section" id="testimonials">
+  <section class="contact-section" id="contact">
     <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Κριτικες Πελατων</span>
-        <h2 class="section-title">Τι Λένε οι Οδηγοί μας</h2>
-        <p class="section-subtitle">Η εμπιστοσύνη σας είναι η μεγαλύτερη απόδειξη της αξιοπιστίας μας.</p>
-      </div>
+      <div class="contact-columns">
+        <div class="contact-info-col">
+          <h2>Επικοινωνήστε μαζί μας</h2>
 
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="rating-stars">
-            ★★★★★
-          </div>
-          <p class="testimonial-text">
-            "Αγόρασα το αυτοκίνητό μου από την Automarinikas πριν 6 μήνες. Άψογη εξυπηρέτηση, το αυτοκίνητο ήταν ακριβώς όπως στην περιγραφή, με πραγματικά χιλιόμετρα και πρόσφατο service."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">ΓΚ</div>
-            <div class="author-info">
-              <h5>Γιώργος Κ.</h5>
-              <p>Θεσσαλονίκη &bull; Αγορά Mercedes A-Class</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="rating-stars">
-            ★★★★★
-          </div>
-          <p class="testimonial-text">
-            "Έκανα ανταλλαγή το παλιό μου όχημα και πήρα ένα SUV. Μου έδωσαν εξαιρετική τιμή για το παλιό μου αυτοκίνητο και η διαδικασία ολοκληρώθηκε σε 2 μέρες!"
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">ΜΠ</div>
-            <div class="author-info">
-              <h5>Μαρία Π.</h5>
-              <p>Καλαμαριά &bull; Ανταλλαγή Nissan Qashqai</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="rating-stars">
-            ★★★★★
-          </div>
-          <p class="testimonial-text">
-            "Επαγγελματίες με όλη τη σημασία της λέξης. Ο κύριος Μαρινίκας και το προσωπικό ήταν πρόθυμοι να λύσουν κάθε απορία και να μου προτείνουν την καλύτερη χρηματοδότηση."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">ΝΣ</div>
-            <div class="author-info">
-              <h5>Νίκος Σ.</h5>
-              <p>Πυλαία &bull; Αγορά Toyota Yaris</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       Contact & Location Section
-       ========================================================================== -->
-  <section class="section" id="contact" style="background: var(--bg-secondary);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Ελατε σε Επαφη</span>
-        <h2 class="section-title">Επισκεφθείτε την Έκθεσή μας</h2>
-        <p class="section-subtitle">Ελάτε να δείτε από κοντά τα οχήματά μας και να κάνετε ένα test drive.</p>
-      </div>
-
-      <div class="contact-grid">
-        <div class="contact-info-card">
-          <h3 style="color:white; font-size:1.4rem; font-family:var(--font-heading);">Στοιχεία Επικοινωνίας</h3>
-          <p style="color:var(--text-muted); margin-top:0.5rem; font-size:0.92rem;">
-            Είμαστε στη διάθεσή σας για οποιαδήποτε πληροφορία ή διευκρίνιση.
+          <p class="contact-detail">
+            <i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 8px;"></i>
+            Απόλλωνος, Πυλαία-Χορτιάτης 555 35
           </p>
 
-          <div class="contact-info-list">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                  <circle cx="12" cy="10" r="3"></circle>
-                </svg>
-              </div>
-              <div class="contact-details">
-                <h5>Διεύθυνση</h5>
-                <p>Οδός Απόλλωνος, Πυλαία - Χορτιάτης, Τ.Κ. 555 35, Θεσσαλονίκη</p>
-              </div>
-            </div>
+          <p class="contact-detail">
+            <i class="fas fa-phone-alt" style="color: var(--primary); margin-right: 8px;"></i>
+            τ : <a href="tel:2310476590">2310 476 590</a>
+          </p>
 
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-              </div>
-              <div class="contact-details">
-                <h5>Τηλέφωνα</h5>
-                <p>
-                  <a href="tel:6932794575">693 279 4575</a> &bull; 
-                  <a href="tel:6943626656">694 362 6656</a> &bull; 
-                  <a href="tel:2310476590">2310 476590</a>
-                </p>
-              </div>
-            </div>
+          <p class="contact-detail">
+            <i class="fas fa-envelope" style="color: var(--primary); margin-right: 8px;"></i>
+            Email: <a href="mailto:automarinikasgr@gmail.com">automarinikasgr@gmail.com</a>
+          </p>
 
-            <div class="contact-item">
-              <div class="contact-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
-              </div>
-              <div class="contact-details">
-                <h5>Ωράριο Λειτουργίας</h5>
-                <p>Δευτέρα – Παρασκευή: 09:00 – 21:00</p>
-                <p>Σάββατο: 09:00 – 17:00 | Κυριακή: Κλειστά</p>
-              </div>
-            </div>
-          </div>
+          <p class="contact-detail">
+            <i class="fas fa-phone" style="color: var(--primary); margin-right: 8px;"></i>
+            Καλέστε :
+            <a href="tel:6932794575">6932794575</a> -
+            <a href="tel:6943626656">6943626656</a> -
+            <a href="tel:2310476590">2310 476 590</a>
+          </p>
         </div>
-
-        <div class="map-wrapper">
-          <iframe 
-            src="https://maps.google.com/maps?q=%CE%91%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD%CE%BF%CF%82%20%CE%A0%CF%85%CE%BB%CE%B1%CE%AF%CE%B1%20%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-            title="Auto Marinikas Location"
-            loading="lazy">
+        <div class="contact-map-col">
+          <iframe
+            src="https://maps.google.com/maps?q=%CE%91%CF%80%CF%8C%CE%BB%CE%BB%CF%89%CE%BD%CE%BF%CF%82+%CE%A0%CF%85%CE%BB%CE%B1%CE%AF%CE%B1+%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            title="Automarinikas Location"
+            loading="lazy"
+            allowfullscreen>
           </iframe>
         </div>
       </div>
@@ -626,84 +349,77 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
+        <!-- Brand -->
         <div class="footer-brand">
-          <a href="#" class="brand-logo">
-            <div class="logo-symbol">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path>
-                <circle cx="7" cy="17" r="2"></circle>
-                <path d="M9 17h6"></path>
-                <circle cx="17" cy="17" r="2"></circle>
-              </svg>
-            </div>
-            <div class="brand-text">
-              <span class="brand-title">AUTO<span>MARINIKAS</span></span>
-            </div>
-          </a>
+          <img src="assets/images/automarinikas-logo.jpg" alt="automarinikas-logo">
           <p>
-            Η κορυφαία επιλογή για ελεγμένα μεταχειρισμένα αυτοκίνητα και μοτοσυκλέτες στη Θεσσαλονίκη με 35+ χρόνια αξιοπιστίας.
+            Απόλλωνος, Πυλαία-Χορτιάτης 555 35<br>
+            Email: <a href="mailto:automarinikasgr@gmail.com" style="color: var(--accent-cyan);">automarinikasgr@gmail.com</a>
           </p>
         </div>
 
+        <!-- Ωράριο -->
         <div class="footer-column">
-          <h4>Γρήγορη Πλοήγηση</h4>
+          <h4>Ωράριο λειτουργίας</h4>
+          <p>Δευτέρα - Παρασκευή 09:00 - 21:00</p>
+          <p>Σαββατο 9:00 - 17:00</p>
+          <p>Κυριακή Κλειστά</p>
+        </div>
+
+        <!-- Κατηγορίες -->
+        <div class="footer-column">
+          <h4>Κατηγορίες</h4>
           <ul class="footer-links">
-            <li><a href="#showroom">Στόλος Οχημάτων</a></li>
-            <li><a href="#financing">Υπολογιστής Δόσεων</a></li>
-            <li><a href="#trade-in">Εκτίμηση Οχήματος</a></li>
-            <li><a href="#why-us">Γιατί Εμάς</a></li>
-            <li><a href="#contact">Επικοινωνία</a></li>
+            <li>
+              <a href="https://automarinikas.gr/product-category/%ce%bc%ce%b5%cf%84%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b1%cf%85%cf%84%ce%bf%ce%ba%ce%af%ce%bd%ce%b7%cf%84%ce%b1/">
+                Μεταχειρισμένα αυτοκίνητα
+              </a>
+            </li>
+            <li>
+              <a href="https://automarinikas.gr/product-category/%ce%bc%ce%b5%cf%84%ce%b1%cf%87%ce%b5%ce%b9%cf%81%ce%b9%cf%83%ce%bc%ce%ad%ce%bd%ce%b5%cf%82-%ce%bc%ce%bf%cf%84%ce%bf%cf%83%cf%85%ce%ba%ce%bb%ce%ad%cf%84%ce%b5%cf%82/">
+                Μεταχειρισμένες Μοτοσυκλέτες
+              </a>
+            </li>
           </ul>
         </div>
 
+        <!-- Χρήσιμα -->
         <div class="footer-column">
-          <h4>Υπηρεσίες</h4>
-          <ul class="footer-links">
-            <li><a href="#showroom">Αγορά Μεταχειρισμένου</a></li>
-            <li><a href="#trade-in">Ανταλλαγή Αυτοκινήτου</a></li>
-            <li><a href="#financing">Τραπεζική Χρηματοδότηση</a></li>
-            <li><a href="#why-us">Τεχνικός Έλεγχος</a></li>
-            <li><a href="#why-us">Βιολογικός Καθαρισμός</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-column">
-          <h4>Επικοινωνία</h4>
-          <p style="color:var(--text-muted); font-size:0.9rem; line-height:1.8;">
-            Απόλλωνος, Πυλαία-Χορτιάτης<br>
-            555 35 Θεσσαλονίκη<br>
-            Τηλ: 693 279 4575 / 2310 476590<br>
-            Email: automarinikasgr@gmail.com
+          <h4>Χρήσιμες πληροφορίες</h4>
+          <p>
+            <a href="https://goo.gl/maps/8TzZsceQVQ9UPF7D9" target="_blank" rel="noopener">
+              <i class="fas fa-directions" style="margin-right: 6px;"></i>
+              Οδηγίες για το πώς θα έρθετε στην Automarinikas πατήστε εδώ
+            </a>
           </p>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Auto Marinikas. Με επιφύλαξη παντός δικαιώματος.</p>
-        <p>Σχεδιασμός & Ανάπτυξη νέας ιστοσελίδας</p>
+        <p>© Copyright 2026. All rights reserved.</p>
+        <p>Secure payment</p>
       </div>
     </div>
   </footer>
 
   <!-- ==========================================================================
-       Floating Quick Action Buttons (WhatsApp & Phone)
+       Floating Contact Buttons
        ========================================================================== -->
-  <div class="floating-actions-bar">
-    <a href="https://wa.me/306932794575?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82%20Automarinikas,%20%CE%B5%CE%BD%CE%B4%CE%B9%CE%B1%CF%86%CE%AD%CF%81%CE%BF%CE%BC%CE%B1%CE%B9%20%CE%B3%CE%B9%CE%B1%20%CE%AD%CE%BD%CE%B1%20%CE%B1%CF%85%CF%84%CE%BF%CE%BA%CE%AF%CE%BD%CE%B7%CF%84%CE%BF." target="_blank" class="floating-btn floating-whatsapp" title="Επικοινωνία στο WhatsApp" id="floating-btn-whatsapp">
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-      </svg>
+  <div class="floating-contact-btn" id="floating-contact">
+    <a href="https://wa.me/306932794575?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82%20Automarinikas"
+       target="_blank"
+       class="float-btn float-btn-whatsapp"
+       title="Επικοινωνία μέσω WhatsApp">
+      <i class="fab fa-whatsapp"></i>
     </a>
-    <a href="tel:6932794575" class="floating-btn floating-phone" title="Άμεση Κλήση" id="floating-btn-call">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-      </svg>
+    <a href="tel:6932794575"
+       class="float-btn float-btn-phone float-btn-main"
+       title="Καλέστε τώρα">
+      <i class="fas fa-phone-alt"></i>
     </a>
   </div>
 
   <!-- Scripts -->
-  <script src="js/vehicles-data.js"></script>
-  <script src="js/calculator.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
